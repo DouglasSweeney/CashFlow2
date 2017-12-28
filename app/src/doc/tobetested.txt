@@ -1,0 +1,131 @@
+Folder PATH listing for volume OS
+Volume serial number is 008E-DBB0
+C:\USERS\DOUG\ANDROIDSTUDIOPROJECTS\CASHFL~1\APP\SRC\MAIN
+����java
+�   ����com
+�       ����doug
+�           ����cashflow
+�               �   TestRoboActivity.java
+�               �   
+�               ����controller
+�               �       AlertDialogFragment.java
+�               �       Calculate.java
+�               �       DatePickerFragment.java
+�               �       FileReadActivity.java
+�               �       HelpFragment.java
+�               �       HelpLab.java
+�               �       HelpPagerActivity.java
+�               �       InputFragment.java
+�               �       InputLab.java
+�               �       InputPagerActivity.java
+�               �       LoginActivity.java
+�               �       LoginLab.java
+�               �       ModelLab.java
+�               �       OutputFragment.java
+�               �       OutputLab.java
+�               �       OutputPagerActivity.java
+�               �       Utils.java
+�               �       
+�               ����model; test & AndroidTest
+�               �   ����accounts
+�               �   �       Account.java; test
+�               �   �       Account401K.java; test - AndroidTest
+�               �   �       Account403B.java; test - AndroidTest
+�               �   �       AccountCashBalance.java; test - AndroidTest
+�               �   �       AccountIra.java; test - AndroidTest
+�               �   �       AccountRoth.java; test - AndroidTest
+�               �   �       Accounts.java; implementation file
+�               �   �       Brokerage.java; test - AndroidTest
+�               �   �       Deductions.java; test - AndroidTest
+�               �   �       Expenses.java; test - AndroidTest
+�               �   �       Pension.java; test - AndroidTest
+�               �   �       Salary.java; test - AndroidTest
+�               �   �       Savings.java; test - AndroidTest
+�               �   �       SocialSecurity.java; test - AndroidTest
+�               �   �       Taxes.java; test - AndroidTest
+�               �   �       
+�               �   ����db
+�               �   �       CashFlowDB.java - AndroidTest
+�               �   �       CashFlowDB2.java
+�               �   �       Field.java - test 
+�               �   �       Header.java - test
+�               �   �       IntegerData.java - test
+�               �   �       MyDateString.java -test
+�               �   �       RealData.java - test
+�               �   �       User.java - test
+�               �   �       Util.java
+�               �   �       
+�               �   ����loaders
+�               �   �       InputLabLoadingTask.java - AndroidTest
+�               �   �       MyAsyncTaskLoader.java
+�               �   �       
+�               �   ����system
+�               �           Input.java - test
+�               �           ResultsDataNode.java - test
+�               �           ValidateInputs.java - test
+�               �           
+�               ����view: test & AndroidTest
+�                   ����inputs: test dir Android Lint
+�                   �   �   Account401K.java - test - AndroidTest
+�                   �   �   Account403B.java - test - AndroidTest
+�                   �   �   Brokerage.java - test - AndroidTest
+�                   �   �   CashBalance.java - test - AndroidTest
+�                   �   �   Deductions.java - test - AndroidTest
+�                   �   �   Expenses.java - test - AndroidTest
+�                   �   �   IraRoth.java - test - AndroidTest
+�                   �   �   IraTraditional.java - test - AndroidTest
+�                   �   �   Pension.java - test - AndroidTest
+�                   �   �   Personal.java - test - AndroidTest
+�                   �   �   Salary.java - test - AndroidTest
+�                   �   �   Savings.java - test - AndroidTest
+�                   �   �   SocialSecurity.java - test - AndroidTest
+�                   �   �   Static.java
+�                   �   �   Taxes.java - test - AndroidTest
+�                   �   �   Util.java- test - needs an AndroidTest
+�                   �   �   
+�                   �   ����help: test dir Android Lint
+�                   �           Account.java - test
+�                   �           Account401k.java - test
+�                   �           Account403b.java - test
+�                   �           Accounts.java - test
+�                   �           Brokerage.java - test
+�                   �           CashBalance.java - test
+�                   �           Deductions.java - test
+�                   �           Expenses.java - test
+�                   �           IraRoth.java - test
+�                   �           IraTraditional.java - test
+�                   �           Pension.java - test
+�                   �           Personal.java - test
+�                   �           Salary.java - test
+�                   �           Savings.java - test
+�                   �           SocialSecurity.java - test
+�                   �           Taxes.java - test
+�                   �           
+�                   ����outputs: test dir Android Lint
+�                           Account.java - test
+�                           Account401k.java - test
+�                           Account403b.java - test
+�                           Accounts.java - test
+�                           Brokerage.java - test
+�                           CashBalance.java - test
+�                           Deductions.java - test
+�                           Expenses.java - test
+�                           FederalAndStateAmounts.java - test
+�                           IncomeGraph.java - needs AndroidTest
+�                           IraRoth.java - test
+�                           IraTraditional.java - test
+�                           Pension.java - test
+�                           Salary.java - test
+�                           Savings.java - test
+�                           SavingsGraph.java - needs AndroidTest
+�                           SocialSecurity.java - test
+�                           Taxes.java - test
+�                           Utils.java - test
+�                           YearlyAmount.java - test
+�                           YearlyAndMonthlyAmounts.java - test
+�                           
+
+Need to run the app and check the following:
+   All of controller
+        DatePickerFragment - go to personal (Input) and test DatePicker on Simulation & Birth fields.
+   2 graphs in view/outputs

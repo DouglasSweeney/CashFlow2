@@ -1,0 +1,374 @@
+<resources>
+    <string name="app_name">Cash Flow</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="input_title_hint">Enter a title for the input.</string>
+    <string name="input_title_label">Title</string>
+    <string name="input_details_label">Details</string>
+    <string name="input_solved_label">Solved</string>
+
+    <string name="account_401k_balance_label">Current Balance:</string>
+    <string name="account_401k_growth_rate_label">Annual Growth Rate (%):</string>
+    <string name="account_401k_contributions_label">Annual Contributions:</string>
+    <string name="account_401k_start_withdrawals_age_label">Starting Withdrawals Age:</string>
+    <string name="account_401k_start_number_of_withdrawals_label">Number of Withdrawals:</string>
+
+    <string name="account_403b_balance_label">Current Balance:</string>
+    <string name="account_403b_growth_rate_label">Annual Growth Rate (%):</string>
+    <string name="account_403b_contributions_label">Annual Contributions:</string>
+    <string name="account_403b_start_withdrawals_age_label">Starting Withdrawals Age:</string>
+    <string name="account_403b_start_number_of_withdrawals_label">Number of Withdrawals:</string>
+
+    <string name="cash_balance_balance_label">Current Balance:</string>
+    <string name="cash_balance_growth_rate_label">Annual Growth Rate (%):</string>
+    <string name="cash_balance_contributions_label">Annual Contributions:</string>
+    <string name="cash_balance_start_withdrawals_age_label">Starting Withdrawals Age:</string>
+    <string name="cash_balance_start_number_of_withdrawals_label">Number of Withdrawals:</string>
+
+    <string name="traditional_ira_balance_label">Current Balance:</string>
+    <string name="traditional_ira_growth_rate_label">Annual Growth Rate (%):</string>
+    <string name="traditional_ira_contributions_label">Annual Contributions:</string>
+    <string name="traditional_ira_start_withdrawals_age_label">Starting Withdrawals Age:</string>
+    <string name="traditional_ira_start_number_of_withdrawals_label">Number of Withdrawals:</string>
+
+    <string name="roth_ira_balance_label">Current Balance:</string>
+    <string name="roth_ira_growth_rate_label">Annual Growth Rate (%):</string>
+    <string name="roth_ira_contributions_label">Annual Contributions:</string>
+    <string name="roth_ira_start_withdrawals_age_label">Starting Withdrawals Age:</string>
+    <string name="roth_ira_start_number_of_withdrawals_label">Number of Withdrawals:</string>
+    <string name="expenses_annual_expenses_label">Expenses:</string>
+    <string name="taxes_federal_tax_rate_label">Federal Tax Rate (%):</string>
+    <string name="taxes_state_tax_rate_label">State Tax Rate (%):</string>
+    <string name="social_security_starting_age_label">Starting Age:</string>
+    <string name="social_security_monthly_amount_label">Monthly Amount:</string>
+    <string name="brokerage_header">Brokerage</string>
+    <string name="brokerage_balance_label">Balance:</string>
+    <string name="brokerage_growth_rate_label">Growth Rate (%):</string>
+    <string name="salary_salary_label">Annual Salary:</string>
+    <string name="salary_merit_increase_label">Merit Increase (%):</string>
+    <string name="deductions_deductions_label">Annual Deductions:</string>
+    <string name="pension_starting_age_label">Starting Age:</string>
+    <string name="pension_monthly_amount_label">Monthly Amount:</string>
+    <string name="pension_inflation_adjusted_label">Inflation Adjusted</string>
+    <string name="personal_simulation_date_label">Simulation Date:</string>
+    <string name="personal_birth_date_label">Birth Date:</string>
+    <string name="personal_retirement_age_label">Retirement Age:</string>
+    <string name="personal_life_expectancy_age_label">Life Expectancy Age:</string>
+    <string name="personal_inflation_label">Inflation (%):</string>
+
+    <string name="simulation_date_title">Simulation Date</string>
+    <string name="birth_date_title">Birth Date</string>
+
+    <!-- Strings related to the action bar -->
+    <string name="jump">JUMP</string>
+    <string name="actions">ACTIONS</string>
+    <string name="save_inputs">Save</string>
+    <string name="outputs">Go to Outputs</string>
+    <string name="inputs">Go to Inputs</string>
+    <string name="help">Go to Help</string>
+    <string name="login">Login</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="license_cash_flow">License (Cash Flow)</string>
+    <string name="license_android_plot">License (AndroidPlot)</string>
+    <string name="license_apache_v2">License (Apache v2)</string>
+
+    <!-- Strings related to the inputs Title -->
+    <string name="input_header_401k">401K (Input)</string>
+    <string name="input_header_403b">403B (Input)</string>
+    <string name="input_header_brokerage">Brokerage (Input)</string>
+    <string name="input_header_cash_balance">Cash Balance (Input)</string>
+    <string name="input_header_deductions">Deductions (Input)</string>
+    <string name="input_header_expenses">Expenses (Input)</string>
+    <string name="input_header_ira_roth">IRA-Roth (Input)</string>
+    <string name="input_header_ira_traditional">IRA-Traditional (Input)</string>
+    <string name="input_header_pension">Pension (Input)</string>
+    <string name="input_header_personal">Personal (Input)</string>
+    <string name="input_header_salary">Salary (Input)</string>
+    <string name="input_header_savings">Savings (Input)</string>
+    <string name="input_header_social_security">Social Security (Input)</string>
+    <string name="input_header_taxes">Taxes (Input)</string>
+
+    <!-- Strings related to the help inputs Title -->
+    <string name="help_input_header_401k">401K (Help)</string>
+    <string name="help_input_header_403b">403B (Help)</string>
+    <string name="help_input_header_brokerage">Brokerage (Help)</string>
+    <string name="help_input_header_cash_balance">Cash Balance (Help)</string>
+    <string name="help_input_header_deductions">Deductions (Help)</string>
+    <string name="help_input_header_expenses">Expenses (Help)</string>
+    <string name="help_input_header_ira_roth">IRA-Roth (Help)</string>
+    <string name="help_input_header_ira_traditional">IRA-Traditional (Help)</string>
+    <string name="help_input_header_pension">Pension (Help)</string>
+    <string name="help_input_header_personal">Personal (Help)</string>
+    <string name="help_input_header_salary">Salary (Help)</string>
+    <string name="help_input_header_savings">Savings (Help)</string>
+    <string name="help_input_header_social_security">Social Security (Help)</string>
+    <string name="help_input_header_taxes">Taxes (Help)</string>
+
+    <!-- Strings related to the outputs Title -->
+    <string name="output_header_401k">401K (Output)</string>
+    <string name="output_header_403b">403B (Output)</string>
+    <string name="output_header_brokerage">Brokerage (Output)</string>
+    <string name="output_header_cash_balance">Cash Balance (Output)</string>
+    <string name="output_header_deductions">Deductions (Output)</string>
+    <string name="output_header_expenses">Expenses (Output)</string>
+    <string name="output_header_income_graph">Income Graph (Output)</string>
+    <string name="output_header_ira_roth">IRA-Roth (Output)</string>
+    <string name="output_header_ira_traditional">IRA-Traditional (Output)</string>
+    <string name="output_header_pension">Pension (Output)</string>
+    <string name="output_header_personal">Personal (Output)</string>
+    <string name="output_header_salary">Salary (Output)</string>
+    <string name="output_header_savings">Savings (Output)</string>
+    <string name="output_header_savings_graph">Savings Graph (Output)</string>
+    <string name="output_header_social_security">Social Security (Output)</string>
+    <string name="output_header_taxes">Taxes (Output)</string>
+
+    // For the database; fields table
+    <string name="field_balance">Balance</string>
+    <string name="field_contributions">Contributions</string>
+    <string name="field_growth_rate">Growth Rate (%)</string>
+    <string name="field_number_of_withdrawals">Number Of Withdrawals</string>
+    <string name="field_start_withdrawals_age">Start Withdrawals Age</string>
+    <string name="field_yearly_deductions">Yearly Deductions</string>
+    <string name="field_annual_expenses">Annual Expenses</string>
+    <string name="field_starting_age">Starting Age</string>
+    <string name="field_monthly_amount">Monthly Amount</string>
+    <string name="field_retirement_age">Retirement Age</string>
+    <string name="field_life_expectancy_age">Life Expectancy Age</string>
+    <string name="field_inflation">Inflation (%)</string>
+    <string name="field_salary">Salary</string>
+    <string name="field_merit_increase">Merit Increase (%)</string>
+    <string name="field_federal_tax_rate">Federal Tax Rate (%)</string>
+    <string name="field_state_tax_rate">State Tax Rate (%)</string>
+    <string name="field_simulation_date">Simulation Date</string>
+    <string name="field_birth_date">Birth Date</string>
+    <string name="field_inflation_adjusted">Inflation Adjusted</string>
+
+    // For the hints of entry fields
+    <string name="hint_dollar_amount">Dollar Amount</string>
+    <string name="hint_percent">Percent</string>
+    <string name="hint_number">Number</string>
+
+    // For the error prompt
+    <string name="field_is_not_a_real_number"> field is not a decimal number</string>
+    <string name="field_is_not_an_integer_number"> field is not an whole number</string>
+    <string name="errorTitle">"Input Numeric Format Error"</string>
+    <string name="ok">OK</string>
+    <string name="error_file_not_found">Error (File not found).</string>
+
+    // Output column headers
+    <string name="output_header_age">Age</string>
+    <string name="output_header_year">Year</string>
+    <string name="output_header_begin">Begin</string>
+    <string name="output_header_deposit">Deposit</string>
+    <string name="output_header_withdraw">Withdraw</string>
+    <string name="output_header_end">End</string>
+    <string name="output_header_yearly">Yearly</string>
+    <string name="output_header_monthly">Monthly</string>
+    <string name="output_header_federal">Federal</string>
+    <string name="output_header_state">State</string>
+    <string name="output_header_total">Total</string>
+
+    <!-- Strings related to graphing -->
+    <string name="income">Income</string>
+    <string name="savings">Savings</string>
+    <string name="expense">Expense</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="new_account">New Account</string>
+    <string name="error_invalid_email">Error: This email address is invalid</string>
+    <string name="error_invalid_password">"Error: This password is too short</string>
+    <string name="error_incorrect_password">Error: This password is incorrect</string>
+    <string name="error_invalid_username_password_combination">Error: Invalid username/password combination</string>
+    <string name="error_field_required">Error: This field is required</string>
+    <string name="error_duplicate_username">Error: Duplicate Username</string>
+    <string name="title_home">HOME</string>
+    <string name="title_login">LOGIN</string>
+    <string name="button_inputs">INPUTS</string>
+    <string name="button_outputs">OUTPUTS</string>
+
+    <!-- Strings related to HELP -->
+    <string name="help_input_header_401k_text">" Current Balance\n"
+                                               "   Dollar Amount\n"
+                                               "      (i.e. 123456.78)\n"
+                                               "Annual Growth Rate (\%%)\n"
+                                               "   Decimal number\n"
+                                               "      (i.e. 5.0)\n"
+                                               "   Conservative - \n"
+                                               "      2.0-3.0\%%\n"
+                                               "   Moderate - \n"
+                                               "      4.0-6.0\%%\n"
+                                               "   Aggressive - \n"
+                                               "      7.0-9.0\%%\n"
+                                               "Annual Contributions\n"
+                                               "   Dollar Amount\n"
+                                               "      (i.e. 123456.78)\n"
+                                               "Starting Withdrawals Age\n"
+                                               "   Whole number\n"
+                                               "      (i.e. 65)\n"
+                                               "Number of Withdrawals\n"
+                                               "   Whole number\n"
+                                               "      (i.e. 12)\n"</string>
+    <string name="help_input_header_403b_text">" Current Balance\n"
+                                               "   Dollar Amount\n"
+                                               "      (i.e. 123456.78)\n"
+                                               "Annual Growth Rate (\%%)\n"
+                                               "   Decimal number\n"
+                                               "      (i.e. 5.0)\n"
+                                               "   Conservative - \n"
+                                               "      2.0-3.0\%%\n"
+                                               "   Moderate - \n"
+                                               "      4.0-6.0\%%\n"
+                                               "   Aggressive - \n"
+                                               "      7.0-9.0\%%\n"
+                                               "Annual Contributions\n"
+                                               "   Dollar Amount\n"
+                                               "      (i.e. 123456.78)\n"
+                                               "Starting Withdrawals Age\n"
+                                               "   Whole number\n"
+                                               "      (i.e. 65)\n"
+                                               "Number of Withdrawals\n"
+                                               "   Whole number\n"
+                                               "      (i.e. 12)\n"</string>
+    <string name="help_input_header_brokerage_text">" Balance"\n
+                                                    "   Dollar Amount\n"
+                                                    "      (i.e. 123456.78)\n"
+                                                    "Growth Rate (\%%)\n"
+                                                    "   Decimal number\n"
+                                                    "      (i.e. 5.0)\n"
+                                                    "   Conservative - \n"
+                                                    "      2.0-3.0\%%\n"
+                                                    "   Moderate - \n"
+                                                    "      4.0-6.0\%%\n"
+                                                    "   Aggressive - \n"
+                                                    "      7.0-9.0\%%\n"</string>
+    <string name="help_input_header_cash_balance_text">" Current Balance\n"
+                                                       "   Dollar Amount\n"
+                                                       "      (i.e. 123456.78)\n"
+                                                       "Annual Growth Rate (\%%)\n"
+                                                       "   Decimal number\n"
+                                                       "      (i.e. 5.0)\n"
+                                                       "   Conservative - \n"
+                                                       "      2.0-3.0\%%\n"
+                                                       "   Moderate - \n"
+                                                       "      4.0-6.0\%%\n"
+                                                       "   Aggressive - \n"
+                                                       "      7.0-9.0\%%\n"
+                                                       "Annual Contributions\n"
+                                                       "   Dollar Amount\n"
+                                                       "      (i.e. 123456.78)\n"
+                                                       "Starting Withdrawals Age\n"
+                                                       "   Whole number\n"
+                                                       "      (i.e. 65)\n"
+                                                       "Number of Withdrawals\n"
+                                                       "   Whole number\n"
+                                                       "      (i.e. 12)\n"</string>
+    <string name="help_input_header_deductions_text">" Annual Deductions\n"
+                                                     "   Dollar Amount\n"
+                                                     "       (i.e. 12345.67)\n"
+                                                     "\n"
+                                                     "   For taxes\n"
+                                                     "      (From 1040 form)\n"</string>
+    <string name="help_input_header_expenses_text">" Expenses\n"
+                                                   "   Dollar Amount\n"
+                                                   "       (i.e. 12345.67)\n"
+                                                   "\n"
+                                                   "   Annually\n"</string>
+    <string name="help_input_header_ira_roth_text">" Current Balance\n"
+                                                   "   Dollar Amount\n"
+                                                   "      (i.e. 123456.78)\n"
+                                                   "Annual Growth Rate (\%%)\n"
+                                                   "   Decimal number\n"
+                                                   "      (i.e. 5.0)\n"
+                                                   "   Conservative - \n"
+                                                   "      2.0-3.0\%%\n"
+                                                   "   Moderate - \n"
+                                                   "      4.0-6.0\%%\n"
+                                                   "   Aggressive - \n"
+                                                   "      7.0-9.0\%%\n"
+                                                   "Annual Contributions\n"
+                                                   "   Dollar Amount\n"
+                                                   "      (i.e. 123456.78)\n"
+                                                   "Starting Withdrawals Age\n"
+                                                   "   Whole number\n"
+                                                   "      (i.e. 65)\n"
+                                                   "Number of Withdrawals\n"
+                                                   "   Whole number\n"
+                                                   "      (i.e. 12)\n"</string>
+    <string name="help_input_header_ira_traditional_text">" Current Balance\n"
+                                                          "   Dollar Amount\n"
+                                                          "      (i.e. 123456.78)\n"
+                                                          "Annual Growth Rate (\%%)\n"
+                                                          "   Decimal number\n"
+                                                          "      (i.e. 5.0)\n"
+                                                          "   Conservative - \n"
+                                                          "      2.0-3.0\%%\n"
+                                                          "   Moderate - \n"
+                                                          "      4.0-6.0\%%\n"
+                                                          "   Aggressive - \n"
+                                                          "      7.0-9.0\%%\n"
+                                                          "Annual Contributions\n"
+                                                          "   Dollar Amount\n"
+                                                          "      (i.e. 123456.78)\n"
+                                                          "Starting Withdrawals Age\n"
+                                                          "   Whole number\n"
+                                                          "      (i.e. 65)\n"
+                                                          "Number of Withdrawals\n"
+                                                          "   Whole number\n"
+                                                          "      (i.e. 12)\n"</string>
+    <string name="help_input_header_pension_text">" Starting Age\n"
+                                                  "   Whole number\n"
+                                                  "      (i.e. 65)\n"
+                                                  "Monthly Amount\n"
+                                                  "   Dollar Amount\n"
+                                                  "      (i.e. 123456.78)\n"
+                                                  "Inflation Adjusted\n"
+                                                  "   Check for annual adj.\n"</string>
+    <string name="help_input_header_personal_text">" Simulation Date\n"
+                                                   "   Click on to change\n"
+                                                   "Birth Date\n"
+                                                   "   Click on to change\n"
+                                                   "Retirement Age\n"
+                                                   "   Whole number\n"
+                                                   "      (i.e. 65)\n"
+                                                   "Life Expectancy Age\n"
+                                                   "   Whole number\n"
+                                                   "      (i.e. 95)\n"
+                                                   "Inflation (\%%)\n"
+                                                   "   Decimal number\n"
+                                                   "      (i.e. 2.8)\n"</string>
+    <string name="help_input_header_salary_text">" Annual Salary\n"
+                                                 "   Dollar Amount\n"
+                                                 "      (i.e. 12345.67)\n"
+                                                 "Merit Increase (\%%)\n"
+                                                 "   Decimal number\n"
+                                                 "      (i.e. 3.0)\n"</string>
+    <string name="help_input_header_savings_text">" Balance"\n
+                                                  "   Dollar Amount\n"
+                                                  "      (i.e. 123456.78)\n"
+                                                  "Growth Rate (\%%)\n"
+                                                  "   Decimal number\n"
+                                                  "      (i.e. 5.0\%%)\n"
+                                                  "   Conservative - \n"
+                                                  "      2.0-3.0\%%\n"
+                                                  "   Moderate - \n"
+                                                  "      4.0-6.0\%%\n"
+                                                  "   Aggressive - \n"
+                                                  "      7.0-12.0\%%\n"</string>
+    <string name="help_input_header_social_security_text">" Starting Age\n"
+                                                          "   Whole number\n"
+                                                          "      (i.e. 62)\n"
+                                                          "Monthly Amount\n"
+                                                          "   Dollar Amount\n"
+                                                          "      (1.e. 1234.56)"
+                                                          "For the data:\n"
+                                                          "www.ssa.gov (Estimate benefits)\n"</string>
+    <string name="help_input_header_taxes_text">" Federal Tax Rate (\%%)\n"
+                                                "   Decimal number\n"
+                                                "      (i.e. 28.0)\n"
+                                                "State Tax Rate (\%%)\n"
+                                                "   Decimal number\n"
+                                                "      (i.e. 6.0)\n"</string>
+</resources>

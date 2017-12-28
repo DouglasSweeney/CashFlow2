@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_ira_roth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Title"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/roth_ira_balance_label"
+            android:text="@string/roth_ira_balance_label"
+            style="@style/InputLabel"/>
+
+        <EditText
+            android:id="@+id/roth_ira_balance"
+            android:layout_toRightOf="@id/roth_ira_balance_label"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,$"
+            style="@style/InputEntry" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/roth_ira_growth_rate_label"
+            android:text="@string/roth_ira_growth_rate_label"
+            style="@style/InputLabel"/>
+
+        <EditText
+            android:id="@+id/roth_ira_growth_rate"
+            android:layout_toRightOf="@id/roth_ira_growth_rate_label"
+            android:inputType="numberDecimal|numberSigned"
+            android:maxLength="5"
+            style="@style/InputEntry"/>
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/roth_ira_contributions_label"
+            android:text="@string/roth_ira_contributions_label"
+            style="@style/InputLabel"/>
+
+        <EditText
+            android:id="@+id/roth_ira_contributions"
+            android:layout_toRightOf="@id/roth_ira_contributions_label"
+            android:inputType="numberDecimal"
+            android:maxLength="10"
+            android:digits="0123456789.,$"
+            style="@style/InputEntry"/>
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/roth_ira_start_withdrawals_age_label"
+            android:text="@string/roth_ira_start_withdrawals_age_label"
+            style="@style/InputLabel"/>
+
+        <EditText
+            android:id="@+id/roth_ira_start_withdrawals_age"
+            android:layout_toRightOf="@id/roth_ira_start_withdrawals_age_label"
+            android:inputType="number"
+            android:maxLength="3"
+            style="@style/InputEntry"/>
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/roth_ira_number_of_withdrawals_label"
+            android:text="@string/roth_ira_start_number_of_withdrawals_label"
+            style="@style/InputLabel"/>
+
+        <EditText
+            android:id="@+id/roth_ira_number_of_withdrawals"
+            android:layout_toRightOf="@id/roth_ira_number_of_withdrawals_label"
+            android:inputType="number"
+            android:maxLength="3"
+            style="@style/InputEntry"/>
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

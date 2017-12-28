@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_personal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Title"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/personal_simulation_date_label"
+            android:text="@string/personal_simulation_date_label"
+            style="@style/InputLabel"
+            />
+
+        <EditText
+            android:id="@+id/personal_simulation_date"
+            android:layout_toRightOf="@id/personal_simulation_date_label"
+            style="@style/InputEntry"
+            android:cursorVisible="false" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/personal_birth_date_label"
+            android:text="@string/personal_birth_date_label"
+            style="@style/InputLabel"/>
+
+        <EditText
+            android:id="@+id/personal_birth_date"
+            android:layout_toRightOf="@id/personal_birth_date_label"
+            style="@style/InputEntry"
+            android:cursorVisible="false" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/personal_retirement_age_label"
+            android:text="@string/personal_retirement_age_label"
+            style="@style/InputLabel"/>
+
+        <EditText
+            android:id="@+id/personal_retirement_age"
+            android:layout_toRightOf="@id/personal_retirement_age_label"
+            android:inputType="number"
+            android:maxLength="3"
+            style="@style/InputEntry" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/personal_life_expectancy_age_label"
+            android:text="@string/personal_life_expectancy_age_label"
+            style="@style/InputLabel"/>
+
+        <EditText
+            android:id="@+id/personal_life_expectancy_age"
+            android:layout_toRightOf="@id/personal_life_expectancy_age_label"
+            android:inputType="number"
+            android:maxLength="3"
+            style="@style/InputEntry" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/personal_inflation_label"
+            android:text="@string/personal_inflation_label"
+            style="@style/InputLabel"/>
+
+        <EditText
+            android:id="@+id/personal_inflation"
+            android:layout_toRightOf="@id/personal_inflation_label"
+            android:inputType="numberDecimal|numberSigned"
+            android:maxLength="4"
+            style="@style/InputEntry" />
+    </RelativeLayout>
+</LinearLayout>
+</ScrollView>

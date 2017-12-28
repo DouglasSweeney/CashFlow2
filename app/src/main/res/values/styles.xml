@@ -1,0 +1,67 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColor">@color/ap_white</item>
+        <item name="android:background">@color/ap_black</item>
+        <item name="android:colorBackground">@color/ap_black</item>
+        <item name="android:colorForeground">@color/ap_white</item>
+        <item name="android:textColorPrimary">@color/ap_white</item>
+        <item name="android:textColorPrimaryInverse">@color/ap_black</item>
+        <item name="android:textColorHint">@color/ap_white</item>
+        <item name="android:textColorLink">@color/ap_white</item>
+        <item name="android:textColorSecondary">@color/ap_white</item>
+        <item name="android:textColorSecondaryInverse">@color/ap_black</item>
+    </style>
+
+    <style name="Title" parent="AppTheme">
+        <item name="android:background">@color/soothing_blue</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:gravity">center</item>item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="InputLabel" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10sp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:maxLines">1</item>
+    </style>
+
+    <style name="InputEntry" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">-30sp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:padding">14sp</item>
+        <item name="android:layout_gravity">end</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:gravity">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="OutputTextArea" parent="AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:gravity">start</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:clickable">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+ </resources>

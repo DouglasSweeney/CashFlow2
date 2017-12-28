@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container_pension"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alwaysDrawnWithCache="false"
+    android:orientation="vertical">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                style="@style/Title" />
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pension_starting_age_label"
+                    style="@style/InputLabel"
+                    android:text="@string/pension_starting_age_label" />
+
+                <EditText
+                    android:id="@+id/pension_starting_age"
+                    style="@style/InputEntry"
+                    android:layout_toRightOf="@id/pension_starting_age_label"
+                    android:inputType="number"
+                    android:maxLength="3" />
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/pension_monthly_amount_label"
+                    style="@style/InputLabel"
+                    android:text="@string/pension_monthly_amount_label" />
+
+                <EditText
+                    android:id="@+id/pension_monthly_amount"
+                    style="@style/InputEntry"
+                    android:layout_toRightOf="@id/pension_monthly_amount_label"
+                    android:digits="0123456789.,$"
+                    android:inputType="numberDecimal" />
+            </RelativeLayout>
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/pension_inflation_adjusted"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_gravity="end"
+                    android:layout_marginEnd="22dp"
+                    android:layout_marginRight="22dp"
+                    android:enabled="true"
+                    android:gravity="end"
+                    android:text="@string/pension_inflation_adjusted_label"
+                    android:textColor="@color/ap_black"
+                    android:buttonTint="@color/ap_black"
+                />
+             </RelativeLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

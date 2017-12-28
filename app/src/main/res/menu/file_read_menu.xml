@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="https://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actions"
+        android:title="@string/actions"
+        app:showAsAction="ifRoom|withText">
+
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item
+                android:id="@+id/inputs"
+                android:title="@string/inputs" />
+            <item
+                android:id="@+id/outputs"
+                android:title = "@string/outputs" />
+            <item
+                android:id="@+id/login"
+                android:title = "@string/login" />
+        </menu>
+    </item>
+</menu>

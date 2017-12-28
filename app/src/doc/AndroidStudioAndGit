@@ -1,0 +1,38 @@
+Android Studio & GitHub - Lesson 1 Setup (NEW) by Will Willis
+----------------------------------------------------------
+Linux
+    Install Git
+        sudo apt install git (or aptitude)
+
+Android Studio
+    File->Close Project (to get "Configure" screen up)
+    Configure->Settings
+    Version Control->Git
+    Fill in "Path to Executable" - needed? automatic?
+        Ensure that "SSH executable" is "Build-in"
+        Click "Test"
+           Ensure Git executed successfully
+    Android Studio menu
+        "VCS"->"Git"
+            Host: "github.com"
+            Login: ?
+            Password: ?
+            Auth Type: "Password"
+            Click "Test"
+                Verify "Success"
+
+Android Studio & Gitub - Lesson 2 Import & Push (NEW) by Will Willis
+--------------------------------------------------------------------
+Android Studio menu
+    "VCS"
+    "Share project on GitHub"
+        Fill in "New Repository Name" - created on GitHub
+            Click "Share"
+    Select "app" - checks sub-directories
+        Leave "Initial commit" for commit message.
+        Click "OK" - may take a few minutes
+            Ensure Success message
+    Should be on github at this point
+
+To use: Android Studio bar
+    Puch & Pull Icons for changes

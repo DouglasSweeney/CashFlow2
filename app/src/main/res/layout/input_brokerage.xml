@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_brokerage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        style="@style/Title"/>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/brokerage_balance_label"
+            android:text="@string/brokerage_balance_label"
+            style="@style/InputLabel"/>
+
+        <EditText
+            android:id="@+id/brokerage_balance"
+            android:layout_toRightOf="@id/brokerage_balance_label"
+            android:inputType="numberDecimal"
+            android:digits="0123456789.,$"
+            style="@style/InputEntry" />
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/brokerage_growth_rate_label"
+            android:text="@string/brokerage_growth_rate_label"
+            style="@style/InputLabel"/>
+
+        <EditText
+            android:id="@+id/brokerage_growth_rate"
+            android:layout_toRightOf="@id/brokerage_growth_rate_label"
+            android:inputType="numberDecimal|numberSigned"
+            android:maxLength="5"
+            style="@style/InputEntry"/>
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>
