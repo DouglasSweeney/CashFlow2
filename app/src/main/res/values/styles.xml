@@ -1,6 +1,43 @@
 <resources>
+    <!-- API 19 OK; white text on a black background -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
 
-    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColor">@color/ap_white</item>
+        <item name="android:background">@color/ap_black</item>
+
+        <item name="android:colorBackground">@color/ap_white</item>
+        <item name="android:colorForeground">@color/ap_black</item>
+        <item name="android:textColorPrimary">@color/ap_white</item>
+        <item name="android:textColorPrimaryInverse">@color/ap_black</item>
+        <item name="android:textColorHint">@color/ap_black</item>
+        <item name="android:textColorLink">@color/ap_black</item>
+        <item name="android:textColorSecondary">@color/ap_white</item>
+        <item name="android:textColorSecondaryInverse">@color/ap_black</item>
+    </style>
+
+    <!-- White background with black text on API 16; changed parent tho -->
+    <style name="AppTheme2" parent="Theme.AppCompat">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColor">@color/ap_black</item>
+        <item name="android:background">@color/ap_white</item>
+        <item name="android:colorBackground">@color/ap_black</item>
+        <item name="android:colorForeground">@color/ap_black</item>
+        <item name="android:textColorPrimary">@color/ap_black</item>
+        <item name="android:textColorPrimaryInverse">@color/ap_black</item>
+        <item name="android:textColorHint">@color/ap_black</item>
+        <item name="android:textColorLink">@color/ap_black</item>
+        <item name="android:textColorSecondary">@color/ap_black</item>
+        <item name="android:textColorSecondaryInverse">@color/ap_black</item>
+    </style>
+
+    <!-- Black background with white text on API 16 -->
+    <style name="AppTheme3" parent="Theme.AppCompat">
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
@@ -8,12 +45,12 @@
         <item name="android:textColor">@color/ap_white</item>
         <item name="android:background">@color/ap_black</item>
         <item name="android:colorBackground">@color/ap_black</item>
-        <item name="android:colorForeground">@color/ap_white</item>
-        <item name="android:textColorPrimary">@color/ap_white</item>
+        <item name="android:colorForeground">@color/ap_black</item>
+        <item name="android:textColorPrimary">@color/ap_black</item>
         <item name="android:textColorPrimaryInverse">@color/ap_black</item>
-        <item name="android:textColorHint">@color/ap_white</item>
-        <item name="android:textColorLink">@color/ap_white</item>
-        <item name="android:textColorSecondary">@color/ap_white</item>
+        <item name="android:textColorHint">@color/ap_black</item>
+        <item name="android:textColorLink">@color/ap_black</item>
+        <item name="android:textColorSecondary">@color/ap_black</item>
         <item name="android:textColorSecondaryInverse">@color/ap_black</item>
     </style>
 
@@ -40,7 +77,6 @@
     <style name="InputEntry" parent="AppTheme">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_marginBottom">-30sp</item>
         <item name="android:textSize">20sp</item>
         <item name="android:padding">14sp</item>
         <item name="android:layout_gravity">end</item>
