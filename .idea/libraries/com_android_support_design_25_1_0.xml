@@ -4,11 +4,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/895e913380bd4787ac565c068befeb01/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/design-25.1.0.aar/895e913380bd4787ac565c068befeb01/jars/classes.jar!/" />
     </CLASSES>
-    <JAVADOC>
-      <root url="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/design/25.1.0/design-25.1.0-javadoc.jar!/" />
-    </JAVADOC>
+    <JAVADOC />
     <SOURCES>
-      <root url="jar://$USER_HOME$/Android/Sdk/extras/android/m2repository/com/android/support/design/25.1.0/design-25.1.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/design/25.1.0/16e5b2ebfe5e5da180c34056f8c8b3696bd8d75f/design-25.1.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
