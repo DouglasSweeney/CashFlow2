@@ -24,7 +24,7 @@ public class CashFlowDb extends CashFlowDb2 {
     public static final Integer MY_2017_doug_USER_ID = 1;
 
     private static final String DB_NAME = "cashFlow.db";
-    private static final int    DB_VERSION = 8;
+    private static final int    DB_VERSION = 9;
 
     // users table constants
     private static final String USER_TABLE = "users";

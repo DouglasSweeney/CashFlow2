@@ -12,7 +12,7 @@ import com.doug.cashflow.controller.InputLab;
 import com.doug.cashflow.controller.LoginLab;
 
 public class Field {
-    private static final String TAG = "Field (inputs)";
+    private static final String TAG = "Field (Inputs)";
 
     TextView textView;
     Integer  rIdField;

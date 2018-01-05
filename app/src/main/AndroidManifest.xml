@@ -24,22 +24,22 @@
 
         <activity
             android:name=".controller.InputPagerActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name_inputs" >
         </activity>
 
         <activity
             android:name=".controller.OutputPagerActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name_outputs" >
         </activity>
 
         <activity
             android:name=".controller.HelpPagerActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name_help" >
         </activity>
 
         <activity
             android:name=".controller.FileReadActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name_about" >
         </activity>
 
         <activity

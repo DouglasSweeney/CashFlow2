@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">Cash Flow</string>
+    <string name="app_name_inputs">Cash Flow - Inputs</string>
+    <string name="app_name_outputs">Cash Flow - Outputs</string>
+    <string name="app_name_help">Cash Flow - Help</string>
+    <string name="app_name_about">Cash Flow - About</string>
 
     <string name="action_settings">Settings</string>
     <string name="input_title_hint">Enter a title for the input.</string>
@@ -74,54 +78,54 @@
     <string name="license_apache_v2">License (Apache v2)</string>
 
     <!-- Strings related to the inputs Title -->
-    <string name="input_header_401k">401K (Input)</string>
-    <string name="input_header_403b">403B (Input)</string>
-    <string name="input_header_brokerage">Brokerage (Input)</string>
-    <string name="input_header_cash_balance">Cash Balance (Input)</string>
-    <string name="input_header_deductions">Deductions (Input)</string>
-    <string name="input_header_expenses">Expenses (Input)</string>
-    <string name="input_header_ira_roth">IRA-Roth (Input)</string>
-    <string name="input_header_ira_traditional">IRA-Traditional (Input)</string>
-    <string name="input_header_pension">Pension (Input)</string>
-    <string name="input_header_personal">Personal (Input)</string>
-    <string name="input_header_salary">Salary (Input)</string>
-    <string name="input_header_savings">Savings (Input)</string>
-    <string name="input_header_social_security">Social Security (Input)</string>
-    <string name="input_header_taxes">Taxes (Input)</string>
+    <string name="input_header_401k">401K</string>
+    <string name="input_header_403b">403B</string>
+    <string name="input_header_brokerage">Brokerage</string>
+    <string name="input_header_cash_balance">Cash Balance</string>
+    <string name="input_header_deductions">Deductions</string>
+    <string name="input_header_expenses">Expenses</string>
+    <string name="input_header_ira_roth">IRA-Roth</string>
+    <string name="input_header_ira_traditional">IRA-Traditional</string>
+    <string name="input_header_pension">Pension</string>
+    <string name="input_header_personal">Personal</string>
+    <string name="input_header_salary">Salary</string>
+    <string name="input_header_savings">Savings</string>
+    <string name="input_header_social_security">Social Security</string>
+    <string name="input_header_taxes">Taxes</string>
 
     <!-- Strings related to the help inputs Title -->
-    <string name="help_input_header_401k">401K (Help)</string>
-    <string name="help_input_header_403b">403B (Help)</string>
-    <string name="help_input_header_brokerage">Brokerage (Help)</string>
-    <string name="help_input_header_cash_balance">Cash Balance (Help)</string>
-    <string name="help_input_header_deductions">Deductions (Help)</string>
-    <string name="help_input_header_expenses">Expenses (Help)</string>
-    <string name="help_input_header_ira_roth">IRA-Roth (Help)</string>
-    <string name="help_input_header_ira_traditional">IRA-Traditional (Help)</string>
-    <string name="help_input_header_pension">Pension (Help)</string>
-    <string name="help_input_header_personal">Personal (Help)</string>
-    <string name="help_input_header_salary">Salary (Help)</string>
-    <string name="help_input_header_savings">Savings (Help)</string>
-    <string name="help_input_header_social_security">Social Security (Help)</string>
-    <string name="help_input_header_taxes">Taxes (Help)</string>
+    <string name="help_input_header_401k">401K</string>
+    <string name="help_input_header_403b">403B</string>
+    <string name="help_input_header_brokerage">Brokerage</string>
+    <string name="help_input_header_cash_balance">Cash Balance</string>
+    <string name="help_input_header_deductions">Deductions</string>
+    <string name="help_input_header_expenses">Expenses</string>
+    <string name="help_input_header_ira_roth">IRA-Roth</string>
+    <string name="help_input_header_ira_traditional">IRA-Traditional</string>
+    <string name="help_input_header_pension">Pension</string>
+    <string name="help_input_header_personal">Personal</string>
+    <string name="help_input_header_salary">Salary</string>
+    <string name="help_input_header_savings">Savings</string>
+    <string name="help_input_header_social_security">Social Security</string>
+    <string name="help_input_header_taxes">Taxes</string>
 
     <!-- Strings related to the outputs Title -->
-    <string name="output_header_401k">401K (Output)</string>
-    <string name="output_header_403b">403B (Output)</string>
-    <string name="output_header_brokerage">Brokerage (Output)</string>
-    <string name="output_header_cash_balance">Cash Balance (Output)</string>
-    <string name="output_header_deductions">Deductions (Output)</string>
-    <string name="output_header_expenses">Expenses (Output)</string>
-    <string name="output_header_income_graph">Income Graph (Output)</string>
-    <string name="output_header_ira_roth">IRA-Roth (Output)</string>
-    <string name="output_header_ira_traditional">IRA-Traditional (Output)</string>
-    <string name="output_header_pension">Pension (Output)</string>
-    <string name="output_header_personal">Personal (Output)</string>
-    <string name="output_header_salary">Salary (Output)</string>
-    <string name="output_header_savings">Savings (Output)</string>
-    <string name="output_header_savings_graph">Savings Graph (Output)</string>
-    <string name="output_header_social_security">Social Security (Output)</string>
-    <string name="output_header_taxes">Taxes (Output)</string>
+    <string name="output_header_401k">401K</string>
+    <string name="output_header_403b">403B</string>
+    <string name="output_header_brokerage">Brokerage</string>
+    <string name="output_header_cash_balance">Cash Balance</string>
+    <string name="output_header_deductions">Deductions</string>
+    <string name="output_header_expenses">Expenses</string>
+    <string name="output_header_income_graph">Income Graph</string>
+    <string name="output_header_ira_roth">IRA-Roth</string>
+    <string name="output_header_ira_traditional">IRA-Traditional</string>
+    <string name="output_header_pension">Pension</string>
+    <string name="output_header_personal">Personal</string>
+    <string name="output_header_salary">Salary</string>
+    <string name="output_header_savings">Savings</string>
+    <string name="output_header_savings_graph">Savings Graph</string>
+    <string name="output_header_social_security">Social Security</string>
+    <string name="output_header_taxes">Taxes</string>
 
     // For the database; fields table
     <string name="field_balance">Balance</string>
